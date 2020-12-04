@@ -1,0 +1,27 @@
+ {
+  font-family: 'Open Sans', sans-serif;
+}
+ .table {
+  margin: 1em;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+ .table .header,  .table .row {
+  display: -webkit-box;
+  display: flex;
+}
+ .table .header div,  .table .row div {
+  -webkit-box-flex: 1;
+          flex: 1;
+  padding: 0.2rem 0.4em;
+  border: 1px solid #eeeeee;
+}
+ .table .header {
+  background-color: #eeeeee;
+}
+ .table .header div {
+  cursor: pointer;
+}

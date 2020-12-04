@@ -1,0 +1,122 @@
+body {
+  overflow: hidden;
+}
+
+
+* {
+  font-family: avenir!imporrtant;
+}
+
+.Container {
+    position: relative;
+    min-height: 300px;
+    max-height: 750px;
+    overflow: hidden;
+    margin-bottom: -6px;
+
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+
+
+  /* Add some content at the bottom of the video/page */
+  .Content {
+    position: absolute;
+    top: 0;
+    color:#f1f1f1;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background-image: linear-gradient(to right, rgba(85,142,222,0.2), rgb(101, 20, 175, 0.7));
+  }
+
+
+  .Overlay {
+    background-color: rgba(64, 75, 107, .9);
+    padding: 4rem;
+    margin-right: 10rem;
+    margin-left: 10rem;
+  }
+ .Herotext {
+
+    font-Weight: 600;
+    padding-Bottom: 50px;
+    padding-Top: 100px;
+    width: 50%;
+}
+
+
+.Qoute{
+  font-Size: 22px;
+  width: 50%;
+}
+
+  @media screen and (max-width: 700px) {
+
+    .Overlay {
+      background-color: rgba(64, 75, 107, .9);
+        padding-top: 5%;
+      margin-right: 5%;
+      margin-left: 5%;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+.Overlaytext{
+    font-size: 12px;
+    font-weight: 600;
+    padding-right: 0px;
+    font-family: "avenir";
+
+  }
+
+
+  .Herotext {
+    width: 90%;
+        font-family: avenir;
+        text-align: center;
+ }
+
+
+   .Qoute{
+     font-Size: 22px;
+     width: 100%;
+   }
+
+  }
+
+
+
+  iframe {
+    margin-bottom: -1px!important;
+    width: 100%    !important;
+  }
+
+
+
+  .card-body {
+    min-height: 0px!important;
+  }
+
+
+  #responsive-navbar-nav {
+    padding-bottom: 0px;
+  }
+
+
+ iframe.ytp-title-channel {
+    display: none!important;
+  }
+
+
+  .ytp-chrome-top.ytp-show-cards-title {
+    display: none;
+  }
+
+
+ iframe {
+   height: 400px;
+ }
